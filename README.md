@@ -1,0 +1,2 @@
+# NLP
+Jurafsky book study
