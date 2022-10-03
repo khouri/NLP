@@ -96,12 +96,14 @@ pass
 
 def call_min_distance_changed_ex2_5():
 
+	#	distance == 3
 	source = "driver"
 	target = "brief"
 
 	mat = min_edit_dist_ex2_4(source, target)
 	print(mat)
-
+	print('--'*89)
+	#	distance == 1
 	target = "drivers"
 	mat = min_edit_dist_ex2_4(source, target)
 	print(mat)
