@@ -10,8 +10,8 @@ def call_levenshtein():
 	target = "execution"
 	result = min_edit_dist(source, target)
 
-	for r in range(len(result)):
-		print(result[r])
+	# for r in range(len(result)):
+	# 	print(result[r])
 pass
 
 def call_regex_exercices_only_alphacharacters():
@@ -111,6 +111,7 @@ pass
 
 
 if __name__ == '__main__':
-	call_min_distance_changed_ex2_5()
+	# call_min_distance_changed_ex2_5()
+	call_levenshtein()
 pass
 
